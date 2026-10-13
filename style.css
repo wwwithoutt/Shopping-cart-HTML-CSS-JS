@@ -60,7 +60,7 @@ header
     font-size: 12px; 
     color: #fff;
     display:flex;
-    justify-content: conter;
+    justify-content: center;
     align-items: center;
     visibility: hidden;
 }
@@ -73,9 +73,9 @@ header
     font-size: 35px;
     text-align: center;
     margin-bottom: 15px;
-     
+
 }
-.product-content 
+.product-content
 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -96,7 +96,7 @@ header
     transition:0.5s;
 
 }
-.img-box:hover img 
+.img-box:hover img
 {
     transform: scale(1.1);
 }
@@ -104,44 +104,48 @@ header
 .product-title
 {
     font-size:20px;
-    margin-top:10px; 
+    margin-top:10px;
 }
 
-.product-box .price-and-cart 
-{ 
-    display: flex; 
+.product-box .price-and-cart
+{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .price-and-cart .price
-{ 
-    font-size: 10px; 
+{
+    font-size: 10px;
     font-weight: 500;
 }
 
 .price-and-cart .add-cart
-{ 
-    padding: 10px; 
+{
+    padding: 10px;
     background: #e35f26;
     border-radius:6px;
     font-size: 20px ;
-    color: #fff; 
+    color: #fff;
     cursor: pointer;
 }
 
-.cart 
-{ 
-    position: fixed; 
+.cart
+{
+    position: fixed;
     top: 0;
-    right: -100%; 
+    right: -100%;
     width: 360px;
     height: 100%;
     background: #fff;
     box-shadow: -2px 0 10px rgba(0,0,0,0.1);
-    padding: 65px 20px 40px; 
-    z-index: 100; 
+    padding: 65px 20px 40px;
+    z-index: 100;
     overflow: auto;
+    transition: 0.5s;
+}
+.cart.active{
+    right: 0;
 }
 .cart-title 
 { 
