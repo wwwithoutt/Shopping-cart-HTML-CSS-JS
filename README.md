@@ -1,11 +1,3 @@
-Вот отличный вариант README.md для твоего проекта!
-
-Я проанализировал твои файлы (script.js, style.css и index.html) и увидел, что ты проделал отличную работу: реализовал подсчет итоговой суммы, добавил кнопки управления количеством (+ / -) и сделал так, что при повторном добавлении товара просто увеличивается его количество, а не создается дубликат.
-
-Я перенес выполненные задачи из раздела Roadmap в Features, добавил немного аккуратных эмодзи для визуала и переписал раздел с логикой так, чтобы было видно, что ты глубоко понимаешь, как работает твой код (работа со строками, парсинг чисел, обход DOM). Текст оставлен на английском, так как это стандарт для GitHub и отлично смотрится в портфолио.
-
-Скопируй этот текст и вставь в свой файл README.md:
-
 # 🛒 Shopping Cart UI
 
 A compact, responsive e-commerce front-end with a slide-out shopping cart. Built entirely with **vanilla HTML, CSS, and JavaScript**. This project is my hands-on practice with DOM manipulation, event handling, and dynamic UI updates without relying on any frameworks.
@@ -76,9 +68,3 @@ Simply open index.html in your favorite browser.
 ⚬ Data Processing: Extracting string values from the DOM, converting them to numbers (parseInt(), .replace()), and executing math operations.
 ⚬ CSS Styling: Managing UI states with class toggling (classList), flexbox alignments, and responsive CSS grid sizing.
 
-
-### Как это закоммитить:
-Так как ты уже удалил мусорный файл `Icon`, можешь просто добавить и закоммитить обновленный README:
-```bash
-git add README.md
-git commit -m "Docs: Update README with new features and better formatting"
